@@ -1,25 +1,25 @@
 class Shephrd < Formula
   desc "Adversarial LLM reviewer for Claude Code permission requests"
   homepage "https://github.com/BlaiseMoses01/shephrd"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.0/shephrd-aarch64-apple-darwin.tar.xz"
-      sha256 "9cdc28667435c2fb145fdcccdcb442af5a888bab9eb31177168a4c6d48f65570"
+      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.1/shephrd-aarch64-apple-darwin.tar.xz"
+      sha256 "4cd811212b879c41248412504d3a0d9134c34e231a8ffc6fc3365e512a4e01c3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.0/shephrd-x86_64-apple-darwin.tar.xz"
-      sha256 "ca1d81891b368ad3e135e5a82271756874561177b7d343b73ca00ea2bcffb5d0"
+      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.1/shephrd-x86_64-apple-darwin.tar.xz"
+      sha256 "d1448deb99ec8d0353cb99c619e8aac6457e6d0949eb42478f076a09741d6d6c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.0/shephrd-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1abccf5578a9098fb8e758e0af5e50fc4398751fef439310df486b02594f6afb"
+      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.1/shephrd-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "839a5d0eee7ec27ee6c29f09f63572737b3053f5d1cd62e27e3e860ca74539c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.0/shephrd-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "10a15e37e76d2c3a71af60742b7664bd99cdef4b7433ba42ec9d15c4f846738c"
+      url "https://github.com/BlaiseMoses01/shephrd/releases/download/v0.1.1/shephrd-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "93019d08da76744c3765ce7a9a29c56efcfd31346bfa6c6cf69590182387bc92"
     end
   end
   license "MIT"
